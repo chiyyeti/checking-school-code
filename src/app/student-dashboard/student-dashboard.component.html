@@ -1,0 +1,32 @@
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Fullname</th>
+            <th>Mobile</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Gender</th>
+            <th>Occupation</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let x of value">
+            <td>{{x.id}}</td>
+            <td>{{x.fullname}}</td>
+            <td>{{x.mobile}}</td>
+            <td>{{x.email}}</td>
+            <td>{{x.password}}</td>
+            <td>{{x.gender}}</td>
+            <td>{{x.occupation}}</td>
+            <td>
+                <button (click)="editStudent()" type="submit">Edit</button> 
+                <button (click)="deleteStudent(x.id)" type="submit">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

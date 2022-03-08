@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fullname": "sunny",
+      "email": "",
+      "password": "",
+      "mobile": null,
+      "id": 2
+    },
+    {
+      "fullname": "jbhj",
+      "email": "",
+      "password": "",
+      "mobile": 45646,
+      "id": 3
+    },
+    {
+      "fullname": "jkhgjgj",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "fullname": "sunny",
+      "email": "arjun@gmail.com",
+      "occupation": "teacher",
+      "gender": "teacher",
+      "password": "265156161",
+      "mobile": null,
+      "id": 5
+    },
+    {
+      "fullname": "gana",
+      "email": "gana@gmail.com",
+      "occupation": "teacher",
+      "gender": "male",
+      "password": "gana1234",
+      "mobile": 8978274486,
+      "id": 8
+    },
+    {
+      "fullname": "manu",
+      "email": "abc@test.com",
+      "occupation": "parent",
+      "gender": "male",
+      "parent": "",
+      "password": "1665665",
+      "mobile": 62332221,
+      "id": 9
+    }
+  ],
+  "studenrt": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
