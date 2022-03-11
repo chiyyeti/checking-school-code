@@ -34,15 +34,6 @@
       "id": 4
     },
     {
-      "fullname": "sunny",
-      "email": "arjun@gmail.com",
-      "occupation": "teacher",
-      "gender": "teacher",
-      "password": "265156161",
-      "mobile": null,
-      "id": 5
-    },
-    {
       "fullname": "gana",
       "email": "gana@gmail.com",
       "occupation": "teacher",
@@ -60,6 +51,26 @@
       "password": "1665665",
       "mobile": 62332221,
       "id": 9
+    },
+    {
+      "fullname": "sunny",
+      "email": "abc@test.com",
+      "occupation": "student",
+      "gender": "male",
+      "parent": "",
+      "password": "123456",
+      "mobile": 63352321,
+      "id": 10
+    },
+    {
+      "fullname": "sunny",
+      "email": "abc@test.com",
+      "occupation": "parent",
+      "gender": "male",
+      "parent": "",
+      "password": "123456",
+      "mobile": 6300689648,
+      "id": 11
     }
   ],
   "studenrt": [

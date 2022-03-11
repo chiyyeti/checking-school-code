@@ -13,7 +13,7 @@ export class ParentDashboardComponent implements OnInit {
   constructor(private http:HttpClient,private serv:ServeviceService) { }
 
   ngOnInit(): void {
-
+ this.getData();
   }
  
   getData(){
@@ -34,6 +34,15 @@ console.log(this.value);
       alert("Something ERROR !")
     })
   }
+  editParent(){
 
+  }
+  deleteParent(id){
+    this.http.delete(`http://localhost:3000/teacher/${id}`).subscribe(res=>{
+      alert('Are you sure !!')
+      return res
+  
+    })
+    }
 
 }
